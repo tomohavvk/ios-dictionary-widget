@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  english3
+//  dictionary
 //
 //  Created by IZ on 11.04.2024.
 //

@@ -9,8 +9,8 @@ import WidgetKit
 import SwiftUI
 
 @main
-struct englishBundle: WidgetBundle {
+struct dictionaryMain: WidgetBundle {
     var body: some Widget {
-        english()
+        dictionary()
     }
 }

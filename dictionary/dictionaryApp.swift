@@ -1,6 +1,6 @@
 //
-//  english3App.swift
-//  english3
+//  dictionaryApp.swift
+//  dictionary
 //
 //  Created by IZ on 11.04.2024.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct english3App: App {
+struct dictionaryApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

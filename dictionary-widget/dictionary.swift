@@ -108,8 +108,8 @@ struct englishEntryView : View {
     }
 }
 
-struct english: Widget {
-    let kind: String = "english"
+struct dictionary: Widget {
+    let kind: String = "dictionary"
     
     var body: some WidgetConfiguration {
         AppIntentConfiguration(kind: kind, intent: ConfigurationAppIntent.self, provider: Provider()) { entry in
@@ -144,7 +144,7 @@ struct Translation: Codable {
 }
 
 #Preview(as: .systemSmall)   {
-    english()
+    dictionary()
 } timeline: {
     SimpleEntry(date: .now, text:  "text1")
     SimpleEntry(date: .now,  text:  "text2")
